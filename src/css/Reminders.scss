@@ -1,0 +1,123 @@
+/* =========================================================================================
+    File Name: Reminder.scss
+    Description: Reminder style css Component
+    Component Name: Reminder
+    ----------------------------------------------------------------------------------------
+    Item Name: Vo2CyclingAcademy - Technology Dep.
+      Author: pooriavakili
+========================================================================================== -->
+*/
+
+// .horizontal > > > .v-hl-btn-next {
+//     top: 0;
+//     bottom: 0;
+//   }
+
+.replaced-btn {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.replaced-btn>div {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    color: black;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    padding: 2px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+}
+
+.goal {
+    height: 100%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.goal-actions {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+}
+
+.item {
+    transition: width 0.4s ease-in-out;
+    overflow-x: hidden;
+}
+
+.item:hover {
+    width: calc((100% - ((var(--count) - 1) * var(--gap))) / var(--count) + 50px);
+
+    .goal-actions {
+        display: flex;
+    }
+
+    .goal-text {
+        max-width: 80%;
+    }
+}
+
+/*<!-- Responsive Breakpoints -->*/
+.horizontal {
+    --fixed: 220px;
+    --count: 2;
+    --gap: 12px;
+    --margin: 24px;
+}
+
+@media (min-width: 1000px) {
+    .horizontal {
+        --count: 3;
+        --margin: 0;
+    }
+}
+
+@media (min-width: 1250px) {
+    .horizontal {
+        --count: 4;
+        --margin: 0;
+    }
+}
+
+@media (min-width: 1500px) {
+    .horizontal {
+        --count: 5;
+        --margin: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .item {
+        width: var(--fixed);
+        padding: 0 calc(var(--gap) / 2);
+    }
+
+    .item:first-child {
+        width: calc(var(--fixed) + var(--margin) - (var(--gap) / 2));
+        padding-left: var(--margin);
+    }
+
+    .item:last-child {
+        width: calc(var(--fixed) + var(--margin) - (var(--gap) / 2));
+        padding-right: var(--margin);
+    }
+
+    .item:only-child {
+        width: calc(var(--fixed) + var(--margin) * 2 - var(--gap));
+    }
+
+    .horizontal {
+        margin: 0 calc(var(--margin) * -1);
+    }
+}
+
+@media (min-width: 768px) {
+    .item {
+        width: calc((100% - ((var(--count) - 1) * var(--gap))) / var(--count));
+        margin-right: var(--gap);
+    }
+}

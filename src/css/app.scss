@@ -1,0 +1,109 @@
+/* =========================================================================================
+    File Name: index.scss
+    Description: index style css Component
+    Component Name:index
+    ----------------------------------------------------------------------------------------
+    Item Name: Vo2CyclingAcademy - Technology Dep.
+      Author: pooriavakili
+========================================================================================== -->
+*/
+@use './fonts/FluentSystemIcons-Regular';
+
+@font-face {
+  font-family: farsi;
+  src: url(./fonts/Vazir-reg.woff);
+  unicode-range: U+0600-06FF;
+}
+
+@font-face {
+  font-family: farsi-bold;
+  src: url(./fonts/Vazir-bold.woff);
+  unicode-range: U+0600-06FF;
+}
+
+@font-face {
+  font-family: latin;
+  src: url(./fonts/open-sans-v18-latin-regular.woff);
+}
+
+.text-bold {
+  font-family: farsi-bold, latin, sans-serif;
+  font-weight: 500;
+}
+
+body {
+  font-family: farsi, latin, sans-serif;
+
+  //   //Make the texts un-selectable
+  //   //-webkit-touch-callout: none;
+  //   //-webkit-user-select: none;
+  //   //-khtml-user-select: none;
+  //   //-moz-user-select: none;
+  //   //-ms-user-select: none;
+  //   //user-select: none;
+
+
+}
+
+#q-app {
+  background: #F0F0F0;
+  background-size: cover;
+}
+
+.q-tab__label {
+  font-size: 100%;
+  text-transform: capitalize;
+}
+
+.q-item {
+  border-radius: 5px;
+
+}
+
+.q-item__section--avatar {
+  min-width: 0;
+}
+
+.q-layout__shadow:after {
+  box-shadow: 2px 0px 2px -1px rgb(0 0 0 / 12%), 2px 2px 5px rgb(0 0 0 / 10%);
+}
+
+// quasar input element's custom dense class
+.q-input-dense .q-field__control {
+  height: auto;
+}
+
+.q-input-dense .q-field__native,
+.q-input-dense .q-field__prefix,
+.q-input-dense .q-field__suffix {
+  //line-height: 0;
+}
+
+.q-input-dense.q-field--dense .q-field__control,
+.q-input-dense.q-field--dense .q-field__native {
+  min-height: 20px;
+}
+
+.q-input-dense.q-field--dense .q-field__native {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.q-toolbar {
+  min-height: 60px;
+}
+
+.bg-secondary {
+  color: #262626 !important;
+}
+
+.q-drawer {
+  background: transparent !important;
+}
+
+//@supports (backdrop-filter: blur()) {
+//  .q-menu {
+//    background-color: rgba(255,255,255,0.85);
+//    backdrop-filter: blur(5px);
+//  }
+//}

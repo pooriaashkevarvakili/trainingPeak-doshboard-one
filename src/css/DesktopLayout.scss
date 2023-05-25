@@ -1,0 +1,100 @@
+/* =========================================================================================
+    File Name: DesktopLayout.scss
+    Description:DesktopLayout style css Component
+    Component Name: DesktopLayout
+    ----------------------------------------------------------------------------------------
+    Item Name: Vo2CyclingAcademy - Technology Dep.
+      Author: pooriavakili
+========================================================================================== -->
+*/
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(0.8);
+        opacity: 0.5;
+    }
+
+    30% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+
+    70% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(0.8);
+        opacity: 0.5;
+    }
+}
+
+.circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: red;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    z-index: 10;
+    //opacity: 0.5;
+    -webkit-transform: scale(0.8);
+    //-webkit-animation: pulse 3s ease-in-out infinite;
+    //animation: pulse 3s ease-in-out infinite;
+}
+
+.icon-ic_fluent_chevron_down_20_regular {
+    font-size: 20px !important;
+}
+
+.drawer-item-active {
+    $highlight: rgba(255, 255, 255, 0.40);
+    //background-color: $highlight !important;
+    //border: 1px solid $highlight;
+    //border-radius: 5px;
+}
+
+body.body--light .main-drawer {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+body.body--dark .main-drawer {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+//@supports not (backdrop-filter: blur()) {
+/*For Firefox Fallback*/
+body.body--light .nav {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+body.body--dark .nav {
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+//}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.2s;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0.3;
+}
+
+.q-item[dir="rtl"],
+.q-list[dir="rtl"] {
+    .q-item__section--side {
+        padding-right: 0;
+        padding-left: 16px;
+    }
+
+    .q-badge--single-line {
+        margin-right: 16px;
+        //padding-right: 0;
+        //padding-left: 16px;
+    }
+}

@@ -1,0 +1,80 @@
+/* =========================================================================================
+    File Name: performanceMetrics.scss
+    Description: performanceMetrics style css Component
+    Component Name: performanceMetrics
+    ----------------------------------------------------------------------------------------
+    Item Name: Vo2CyclingAcademy - Technology Dep.
+      Author: pooriavakili
+========================================================================================== -->
+*/
+$fatigue: #f386df;
+$form: #f8c15d;
+
+.metric {
+    border: 2px solid;
+    border-radius: 7px;
+    width: 70px;
+    height: 55px;
+}
+
+.metric.main {
+    width: 85px;
+    height: 70px;
+    z-index: 100;
+    bottom: 7px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.metric.main>.number {
+    position: absolute;
+    top: 2px;
+    left: 19px;
+}
+
+.metric.main>.description {
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+}
+
+.metric.side>.number {
+    position: absolute;
+    top: 2px;
+    left: 19px;
+}
+
+.metric.side>.description {
+    width: 100%;
+    position: absolute;
+    z-index: 50;
+    bottom: -1px;
+    height: 20px;
+    font-size: 0.9em;
+}
+
+.metric.side:nth-child(1) {
+    border-color: $fatigue;
+    left: 10px;
+}
+
+.metric.side:nth-child(1) .number {
+    color: $fatigue;
+}
+
+.metric.side:nth-child(1) .description {
+    background-color: $fatigue;
+}
+
+.metric.side:nth-child(3) {
+    border-color: $form;
+    right: 10px;
+}
+
+.metric.side:nth-child(3) .number {
+    color: $form;
+}
+
+.metric.side:nth-child(3) .description {
+    background-color: $form;
+}

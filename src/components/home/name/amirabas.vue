@@ -1,0 +1,70 @@
+<!-- =========================================================================================
+    File Name: amirabas.vue
+    Description: amirabas Component
+    Component Name: amirabasPassword
+    ----------------------------------------------------------------------------------------
+    Item Name: Vo2CyclingAcademy - Technology Dep.
+      Author: pooriavakili
+========================================================================================== -->
+
+<template>
+    <div class="row hover-white-one">
+        <q-list>
+            <q-item>
+                <q-item-section avatar>
+                    <img src="Ellipse 375.png" />
+                </q-item-section>
+
+                <q-item-section>امیرعباس حسینی</q-item-section>
+            </q-item>
+        </q-list>
+        <div style="margin-right:15px;margin-top:15px" class="q-mt-sm">
+            <img src="circle-check.png" />
+        </div>
+        <div style="margin-right:32px;margin-top:15px" class="q-mt-sm">
+            <img src="circle-check.png" />
+        </div>
+        <div style="margin-right:32px;margin-top:15px" class="q-mt-sm">
+            <img src="alert-circle.png" />
+        </div>
+        <div style="margin-right:35px;margin-top:15px" class="q-mt-sm">
+            <img src="error.svg" />
+        </div>
+        <div style="margin-right:45px;margin-top:15px" class="q-mt-sm">
+            <img src="alert-circle.png" />
+        </div>
+        <div style="margin-right:45px;margin-top:15px" class="q-mt-sm">
+            <img src="circleHidden.svg" />
+        </div>
+        <div style="margin-right:45px;margin-top:15px" class="q-mt-sm">
+            <img src="circleHidden.svg" />
+        </div>
+        <img src="achar.svg" style="color:#6666;margin-right:50px;margin-top:2px" @click="changeRouter" />
+        <img src="Calendar.svg" @click="changeRouterOne" style="color:#6666;margin-right:20px;margin-top:2px"
+            name="settings" />
+    </div>
+</template>
+
+<script setup>
+import { useRouter } from 'vue-router';
+const router = useRouter()
+function changeRouter() {
+    router.push('Settings')
+}
+function changeRouterOne() {
+    router.push('Calendar')
+}
+</script>
+<style lang="scss">
+:focus {
+    .hover-white {
+        background-color: #fff;
+        cursor: pointer;
+    }
+
+    .hover-white-one {
+        background-color: #fff;
+        cursor: pointer;
+    }
+}
+</style>

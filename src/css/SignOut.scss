@@ -1,0 +1,122 @@
+/* =========================================================================================
+    File Name: signout.scss
+    Description: signOut style css Component
+    Component Name: signOut
+    ----------------------------------------------------------------------------------------
+    Item Name: Vo2CyclingAcademy - Technology Dep.
+      Author: pooriavakili
+========================================================================================== -->
+*/
+.form-login {
+    position: relative;
+    left: 40px
+}
+
+.btn-grid {
+    margin-top: 15px
+}
+
+@media (max-width:1300px) {
+    .form-responsive {
+        display: none
+    }
+
+    .form-login {
+        position: relative;
+        left: 300px
+    }
+}
+
+.card-login-responsive {
+    border-radius: 30px;
+    width: 648px;
+    height: 620px;
+    direction: rtl
+}
+
+@media (max-width:1300px) {
+    .card-login-responsive {
+        width: 648px;
+        height: 600px;
+    }
+
+    .btn-grid {
+        margin-top: 0
+    }
+}
+
+@media (max-width:1500px) {
+    .card-login-responsive {
+        width: 648px;
+        height: 600px;
+    }
+
+    .btn-grid {
+        margin-top: 0
+    }
+}
+
+@media (max-width:1000px) {
+    .card-login-responsive {
+        position: relative;
+        right: 200px
+    }
+}
+
+@media (max-width:800px) {
+    .card-login-responsive {
+        position: relative;
+        right: 270px;
+        width: 550px;
+    }
+}
+
+@media (max-width:600px) {
+    .card-login-responsive {
+        position: relative;
+        right: 260px;
+        width: 470px;
+    }
+
+    .btn-grid {
+        margin-right: 100px !important;
+        width: 300px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .input-responsive {
+        width: 420px !important;
+
+
+
+    }
+
+    .input-user {
+        width: 370px !important;
+
+
+
+    }
+
+    .login-btn {
+        width: 370px !important;
+    }
+}
+
+.input-responsive {
+    width: 498px;
+
+}
+
+.input-user {
+    width: 456px
+}
+
+.login-btn {
+    background-color: #DF2063;
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 450px
+}

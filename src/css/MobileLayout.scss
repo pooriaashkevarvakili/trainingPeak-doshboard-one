@@ -1,0 +1,18 @@
+/* =========================================================================================
+    File Name: mobileLayout.scss
+    Description: mobileLayout style css Component
+    Component Name: mobileLayout
+    ----------------------------------------------------------------------------------------
+    Item Name: Vo2CyclingAcademy - Technology Dep.
+      Author: pooriavakili
+========================================================================================== -->
+*/
+
+$bg-color: rgb(226, 226, 226);
+
+.line {
+    height: 1px;
+    width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(90deg, $bg-color 10%, darken($bg-color, 20%), $bg-color 90%);
+}

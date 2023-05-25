@@ -1,0 +1,103 @@
+/* =========================================================================================
+    File Name: fullcalendar.scss
+    Description: fullcalendar style css Component
+    Component Name: fullCalendar
+    ----------------------------------------------------------------------------------------
+    Item Name: Vo2CyclingAcademy - Technology Dep.
+      Author: pooriavakili
+========================================================================================== -->
+*/
+
+.fc .fc-scrollgrid-liquid {
+    width: 95%;
+    height: 85%;
+}
+
+.fc .fc-toolbar.fc-header-toolbar {
+    margin-bottom: 1.5em;
+    margin-left: 20px;
+}
+
+
+
+.fc .fc-button-group {
+    margin-right: 60px
+}
+
+.fc .fc-view-harness {
+    margin-left: 20px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+ul {
+    margin: 0;
+    padding: 0 0 0 1.5em;
+}
+
+li {
+    margin: 1.5em 0;
+    padding: 0;
+}
+
+b {
+    /* used for event dates/times */
+    margin-right: 3px;
+}
+
+.demo-app {
+    display: flex;
+    min-height: 100%;
+    font-family: 'IRANSans';
+    font-size: 14px;
+}
+
+.demo-app-sidebar {
+    width: 300px;
+    line-height: 1.5;
+    background: #eaf9ff;
+    border-right: 1px solid #d3e2e8;
+    height: 780px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.demo-app-sidebar-section {
+    padding: 2em;
+}
+
+.demo-app-main {
+    flex-grow: 1;
+    padding: 3em;
+
+}
+
+.fc {
+    /* the calendar root */
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active,
+.fc .fc-button-primary:not(:disabled):hover {
+    background-color: #82E6FC;
+    border-color: var(--fc-button-active-border-color);
+    color: var(--fc-button-text-color);
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active,
+.fc .fc-button-primary:not(:disabled):active {
+    background-color: orange;
+    border-color: var(--fc-button-active-border-color);
+    color: var(--fc-button-text-color);
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active,
+.fc .fc-button-primary:not(:disabled) {
+    background-color: #FF3864;
+    border-color: var(--fc-button-active-border-color);
+    color: var(--fc-button-text-color);
+}

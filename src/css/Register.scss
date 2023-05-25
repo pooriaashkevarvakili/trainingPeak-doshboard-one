@@ -1,0 +1,156 @@
+/* =========================================================================================
+    File Name: Register.scss
+    Description: Register style css Component
+    Component Name: Register
+    ----------------------------------------------------------------------------------------
+    Item Name: Vo2CyclingAcademy - Technology Dep.
+      Author: pooriavakili
+========================================================================================== -->
+*/
+.form-login {
+    position: relative;
+    left: 40px
+}
+
+@media (max-width:1300px) {
+    .form-responsive {
+        display: none
+    }
+
+    .form-login {
+        position: relative;
+        left: 300px
+    }
+
+    .card-register-responsive {
+        width: 648px;
+        height: 600px;
+    }
+
+
+
+
+}
+
+.card-register-responsive {
+    border-radius: 30px;
+    width: 648px;
+    height: 620px;
+    direction: rtl
+}
+
+
+
+@media screen and (max-width:1500px) {
+    .card-register-responsive {
+        width: 648px;
+        height: 600px;
+    }
+
+
+    .btn-vo2 {
+        margin-top: -20px;
+    }
+
+    .btn-register {
+        position: relative !important;
+        bottom: 5px !important;
+    }
+
+
+}
+
+
+
+@media (max-width:1000px) {
+    .card-register-responsive {
+        position: relative;
+        right: 200px
+    }
+}
+
+@media (max-width:800px) {
+    .card-register-responsive {
+        position: relative;
+        right: 270px;
+        width: 550px;
+    }
+
+    .btn-vo2 {
+        position: relative !important;
+        bottom: -5px !important;
+    }
+}
+
+@media (max-width:600px) {
+    .card-register-responsive {
+        position: relative;
+        right: 260px;
+        width: 470px;
+    }
+
+    .input-responsive {
+        width: 420px !important;
+
+
+
+    }
+
+    .input-user {
+        width: 370px !important;
+
+
+
+    }
+
+    .register-btn {
+        width: 370px !important;
+    }
+
+    .btn-register {
+        position: relative !important;
+        bottom: 5px !important;
+        right: 120px !important;
+
+    }
+
+    .btn-vo2 {
+        position: relative !important;
+        bottom: -8px !important;
+    }
+
+}
+
+@media(max-width:500px) {
+    .btn-register {
+        position: relative;
+        bottom: 10px !important;
+        right: 100px !important;
+    }
+
+
+
+}
+
+.input-responsive {
+    width: 498px;
+
+}
+
+.input-user {
+    width: 456px
+}
+
+
+
+.register-btn {
+    background-color: #DF2063;
+
+    border-radius: 20px;
+    width: 450px
+}
+
+.btn-vo2 {
+    position: relative !important;
+    right: -40px !important;
+}

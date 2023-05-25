@@ -1,0 +1,23 @@
+/* =========================================================================================
+    File Name:calendar.scss
+    Description: Calendar style css Component
+    Component Name: Calendar
+    ----------------------------------------------------------------------------------------
+    Item Name: Vo2CyclingAcademy - Technology Dep.
+      Author: pooriavakili
+========================================================================================== -->
+*/
+.q-calendar__ellipsis {
+
+    overflow: visible;
+    font-family: farsi;
+}
+
+.q-calendar-day__head--day {
+    padding: 40px;
+
+}
+
+.q-calendar-day__interval--text {
+    font-family: farsi-bold;
+}

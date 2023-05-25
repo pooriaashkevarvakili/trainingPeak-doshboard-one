@@ -1,0 +1,265 @@
+﻿[
+  {
+    "atlConstant": 7,
+    "atlConstant2": 14,
+    "atlStartValue": 0,
+    "atlStartValue2": 0,
+    "chartType": 32,
+    "ctlConstant": 42,
+    "ctlStartValue": 0,
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 7,
+      "startDate": null
+    },
+    "index": 0,
+    "quickDateSelectOption": 0,
+    "showIntensityFactorPerDay": false,
+    "showSecondAtlSeries": false,
+    "showTSBFill": false,
+    "showTSSPerDay": false,
+    "title": null,
+    "workoutTypeIds": [
+      "0"
+    ]
+  },
+  {
+    "chartType": 24,
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 5,
+      "startDate": null
+    },
+    "index": 1,
+    "title": null,
+    "workoutTypeIds": [
+      "2"
+    ]
+  },
+  {
+    "chartType": 8,
+    "comparisonDateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 8,
+      "startDate": null
+    },
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 3,
+      "startDate": null
+    },
+    "displayState": 1,
+    "index": 2,
+    "tags": null,
+    "title": null,
+    "useComparison": true,
+    "workoutTypeIds": null
+  },
+  {
+    "chartType": 23,
+    "dateGrouping": 1,
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": null,
+      "startDate": null
+    },
+    "hideAverage": false,
+    "index": 3,
+    "showPlanned": true,
+    "title": "",
+    "units": null,
+    "workoutTypeIds": []
+  },
+  {
+    "chartType": 33,
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": null,
+      "startDate": null
+    },
+    "displayCategoryLabels": true,
+    "index": 4,
+    "powerProfileGrouping": 4,
+    "title": null
+  },
+  {
+    "chartType": 8,
+    "comparisonDateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 15,
+      "startDate": null
+    },
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 11,
+      "startDate": null
+    },
+    "displayState": 2,
+    "index": 5,
+    "tags": null,
+    "title": null,
+    "useComparison": true,
+    "workoutTypeIds": null
+  },
+  {
+    "chartType": 20,
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 6,
+      "startDate": null
+    },
+    "hideAverage": false,
+    "index": 6,
+    "showPlanned": false,
+    "title": null,
+    "workoutTypeIds": []
+  },
+  {
+    "chartType": 18,
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 8,
+      "startDate": null
+    },
+    "index": 7,
+    "title": null,
+    "workoutTypeIds": []
+  },
+  {
+    "chartType": 19,
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 5,
+      "startDate": null
+    },
+    "hideAverage": false,
+    "index": 8,
+    "showPlanned": false,
+    "title": null,
+    "workoutTypeIds": []
+  },
+  {
+    "atlConstant": 7,
+    "atlConstant2": 14,
+    "atlStartValue": 0,
+    "atlStartValue2": 0,
+    "chartType": 32,
+    "ctlConstant": 42,
+    "ctlStartValue": 0,
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 5,
+      "startDate": null
+    },
+    "index": 9,
+    "quickDateSelectOption": 0,
+    "showIntensityFactorPerDay": true,
+    "showSecondAtlSeries": false,
+    "showTSBFill": false,
+    "showTSSPerDay": true,
+    "title": null,
+    "workoutTypeIds": [
+      "0"
+    ]
+  },
+  {
+    "chartType": 25,
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 6,
+      "startDate": null
+    },
+    "index": 10,
+    "title": null,
+    "workoutTypeIds": []
+  },
+  {
+    "chartType": 17,
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 6,
+      "startDate": null
+    },
+    "index": 11,
+    "title": null,
+    "workoutTypeIds": []
+  },
+  {
+    "chartType": 29,
+    "comparisonDateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 1,
+      "startDate": null
+    },
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 1,
+      "startDate": null
+    },
+    "displayState": 1,
+    "index": 12,
+    "tags": null,
+    "title": null,
+    "useComparison": false,
+    "workoutTypeIds": null
+  },
+  {
+    "chartType": 13,
+    "dataFields": [
+      9,
+      26
+    ],
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 7,
+      "startDate": null
+    },
+    "index": 13,
+    "showMarkers": true,
+    "title": null
+  },
+  {
+    "caloriesType": 2,
+    "chartType": 2,
+    "dateGrouping": 2,
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": null,
+      "startDate": null
+    },
+    "includeGoalCalories": true,
+    "index": 14,
+    "title": null
+  },
+  {
+    "chartType": 28,
+    "comparisonDateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 1,
+      "startDate": null
+    },
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 6,
+      "startDate": null
+    },
+    "displayState": 1,
+    "index": 15,
+    "tags": null,
+    "title": null,
+    "useComparison": true,
+    "workoutTypeIds": null
+  },
+  {
+    "chartType": 35,
+    "dateOptions": {
+      "endDate": null,
+      "quickDateSelectOption": 1,
+      "startDate": null
+    },
+    "index": 16,
+    "peakType": 4,
+    "title": null,
+    "workoutTypeIds": []
+  }
+]

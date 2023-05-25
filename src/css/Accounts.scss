@@ -1,0 +1,190 @@
+/* =========================================================================================
+    File Name: Accounts.scss
+    Description: Account style css Component
+    Component Name: Accounts
+    ----------------------------------------------------------------------------------------
+    Item Name: Vo2CyclingAcademy - Technology Dep.
+      Author: pooriavakili
+========================================================================================== -->
+*/
+.q-card {
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.q-card:hover {
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3) !important;
+}
+
+.profile-editor {
+    padding: 0 8px;
+    background: white;
+    min-width: 500px;
+    min-height: 600px;
+    max-height: 600px;
+
+    .form-data>div {
+        font-size: 90%;
+        margin-bottom: 16px;
+        display: flex;
+        flex-flow: column;
+    }
+}
+
+.premium-card {
+    min-height: 170px;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23b46028' fill-opacity='0.1' fill-rule='nonzero'%3E%3Cpath d='M29 58.58l7.38-7.39A30.95 30.95 0 0 1 29 37.84a30.95 30.95 0 0 1-7.38 13.36l7.37 7.38zm1.4 1.41l.01.01h-2.84l-7.37-7.38A30.95 30.95 0 0 1 6.84 60H0v-1.02a28.9 28.9 0 0 0 18.79-7.78L0 32.41v-4.84L18.78 8.79A28.9 28.9 0 0 0 0 1.02V0h6.84a30.95 30.95 0 0 1 13.35 7.38L27.57 0h2.84l7.39 7.38A30.95 30.95 0 0 1 51.16 0H60v27.58-.01V60h-8.84a30.95 30.95 0 0 1-13.37-7.4L30.4 60zM29 1.41l-7.4 7.38A30.95 30.95 0 0 1 29 22.16 30.95 30.95 0 0 1 36.38 8.8L29 1.4zM58 1A28.9 28.9 0 0 0 39.2 8.8L58 27.58V1.02zm-20.2 9.2A28.9 28.9 0 0 0 30.02 29h26.56L37.8 10.21zM30.02 31a28.9 28.9 0 0 0 7.77 18.79l18.79-18.79H30.02zm9.18 20.2A28.9 28.9 0 0 0 58 59V32.4L39.2 51.19zm-19-1.4a28.9 28.9 0 0 0 7.78-18.8H1.41l18.8 18.8zm7.78-20.8A28.9 28.9 0 0 0 20.2 10.2L1.41 29h26.57z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+    .title {
+        font-weight: 700;
+        font-size: 32px;
+    }
+}
+
+.messages {
+    height: 250px;
+    user-select: none;
+}
+
+.second-row {
+    height: 318px;
+}
+
+.friend-list {
+    height: calc(318px - 50px - 32px)
+}
+
+.tip-list {
+    height: calc(318px - 50px - 32px);
+    user-select: none;
+}
+
+.q-toolbar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    min-height: 50px;
+}
+
+.grid {
+    margin-top: -190px;
+    height: 150px
+}
+
+@media (max-width: 1000px) {
+    .grid {
+        margin-top: 0
+    }
+}
+
+.coach-img::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+
+.coach-img:hover::before {
+    -webkit-animation: shine .75s;
+    animation: shine .75s;
+}
+
+@-webkit-keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+@media (max-width: 660px) {
+    .q-avatar {
+        width: 60px !important;
+    }
+
+    .data-title {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .q-avatar {
+        width: 125px !important;
+    }
+
+    .data-title {
+        display: initial;
+    }
+}
+
+@media (max-width: 1135px) {
+    .q-avatar {
+        width: 5vw !important;
+    }
+
+    .messages {
+        height: calc(170px + 8px + 5vw + 48px - 50px - 32px);
+    }
+
+    .tips {
+        display: none;
+    }
+}
+
+@media (max-width: 1335px) {
+
+    .data-title {
+        display: none;
+    }
+}
+
+@media (min-width: 1500px) {
+    .profile-editor {
+        padding: 8px 32px;
+        min-width: 600px;
+        max-height: 800px;
+    }
+
+    .data-title {
+        display: initial;
+    }
+}
+
+@media (max-width: 1530px) {
+    .data-title {
+        display: none;
+    }
+}
+
+.dropdown {
+    border: 1px solid #666666;
+    border-radius: 56px;
+    margin-top: 170px;
+    margin-left: 8px;
+    height: 64px;
+    width: 224px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#btn-dropdown-up {
+
+    [class^=icon-]:before,
+    i[class*=" icon-"]:before {
+        margin-right: -40px;
+    }
+}

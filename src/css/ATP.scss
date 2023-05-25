@@ -1,0 +1,32 @@
+/* =========================================================================================
+    File Name: Atp.scss
+    Description: Atp style css Component
+    Component Name: Atp
+    ----------------------------------------------------------------------------------------
+    Item Name: Vo2CyclingAcademy - Technology Dep.
+      Author: pooriavakili
+========================================================================================== -->
+*/
+.q-card {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10) !important;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.vgt-table {
+    font-size: 90% !important;
+
+    &.condensed td,
+    &.condensed th.vgt-row-header {
+        padding: .2em 1em .2em 1em;
+    }
+
+    th.vgt-row-header {
+        background-color: #cccccc;
+        border-bottom: 1px solid #a1a1a1 !important;
+    }
+
+    .data-period {
+        color: white;
+    }
+}

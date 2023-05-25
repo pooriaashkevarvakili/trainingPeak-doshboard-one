@@ -1,0 +1,123 @@
+/* =========================================================================================
+    File Name: signout.scss
+    Description: signOut style css Component
+    Component Name: signOut
+    ----------------------------------------------------------------------------------------
+    Item Name: Vo2CyclingAcademy - Technology Dep.
+      Author: pooriavakili
+========================================================================================== -->
+*/
+.form-login {
+    position: relative;
+    left: 40px
+}
+
+.btn-grid {
+    position: relative;
+    right: 160px;
+    top: 50px;
+}
+
+@media (max-width:1300px) {
+    .form-responsive {
+        display: none
+    }
+
+    .form-login {
+        position: relative;
+        left: 300px
+    }
+}
+
+.card-login-responsive {
+    border-radius: 30px;
+    width: 648px;
+    height: 650px;
+    direction: rtl
+}
+
+@media (max-width:1300px) {
+    .card-login-responsive {
+        width: 648px;
+        height: 600px;
+    }
+
+    .btn-grid {
+        margin-top: -2px
+    }
+}
+
+@media (max-width:1500px) {
+    .card-login-responsive {
+        width: 648px;
+        height: 600px;
+    }
+
+    .btn-grid {
+        margin-top: -20px
+    }
+}
+
+@media (max-width:1000px) {
+    .card-login-responsive {
+        position: relative;
+        right: 200px
+    }
+}
+
+@media (max-width:800px) {
+    .card-login-responsive {
+        position: relative;
+        right: 270px;
+        width: 550px;
+    }
+}
+
+@media (max-width:600px) {
+    .card-login-responsive {
+        position: relative;
+        right: 260px;
+        width: 470px;
+    }
+
+    .btn-grid {
+        position: relative !important;
+        right: -40px !important;
+        top: 40px !important;
+        width: 300px;
+    }
+
+    .input-responsive {
+        width: 420px !important;
+
+
+
+    }
+
+    .input-user {
+        width: 370px !important;
+
+
+
+    }
+
+    .profile-btn {
+        width: 370px !important;
+    }
+}
+
+.input-responsive {
+    width: 498px;
+
+}
+
+.input-user {
+    width: 456px
+}
+
+.profile-btn {
+    background-color: #D0D0D0;
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 450px
+}

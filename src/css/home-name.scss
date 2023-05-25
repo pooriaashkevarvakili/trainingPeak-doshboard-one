@@ -1,0 +1,47 @@
+/* =========================================================================================
+    File Name: home-name.scss
+    Description: home-name style css Component
+    Component Name: home.name
+    ----------------------------------------------------------------------------------------
+    Item Name: Vo2CyclingAcademy - Technology Dep.
+      Author: pooriavakili
+========================================================================================== -->
+*/
+.settings-img {
+    color: #6666;
+}
+
+.settings {
+    margin-right: 20px;
+    margin-top: 10px
+}
+
+.achar-img {
+    color: #6666;
+    margin-right: 58px;
+    margin-top: 2px
+}
+
+.achar {
+    margin-right: 3px;
+    margin-top: 7px
+}
+
+.changeColor {
+    width: 670px;
+    margin-top: -40px;
+    display: flex;
+    margin-right: 550px
+}
+
+:focus {
+    .hover-white {
+        background-color: #fff;
+        cursor: pointer;
+    }
+
+    .hover-white-one {
+        background-color: #fff;
+        cursor: pointer;
+    }
+}
